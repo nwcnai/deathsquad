@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body, header {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+}
+
+header img, nav {
+    margin: 0px 20px;
+}
+
+header img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: plum;
+}
+
+.img-background {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 130px;
+    background-position-y: -25px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
+.sessao-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 22px;
+}
+
+.produto1, .produto2, .produto3, .produto4, .produto5, .produto6, .produto7, .produto8, .produto9, .produto10 {
+    width: 250px;
+    height: 200px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.produto1:hover, .produto2:hover, .produto3:hover, .produto4:hover, .produto5:hover, .produto6:hover, .produto7:hover, .produto8:hover, .produto9:hover, .produto10:hover {
+    transition: all 0.6s;
+}
+
+.produto1 {
+    background-image: url(../img/1\ \(1\).webp);
+}
+
+.produto1:hover {
+    background-image: url(../img/1\ \(2\).webp);
+}
+
+.produto2 {
+    background-image: url(../img/2\ \(1\).webp);
+}
+
+.produto2:hover {
+    background-image: url(../img/2\ \(2\).webp);
+}
+
+.produto3 {
+    background-image: url(../img/camisamilan.png);
+}
+
+.produto3:hover {
+    background-image: url(../img/camisamilan2.jpeg);
+}
+
+.produto4 {
+    background-image: url(../img/4\ \(1\).webp);
+}
+
+.produto4:hover {
+    background-image: url(../img/4\ \(2\).webp);
+}
+
+.produto5 {
+    background-image: url(../img/5\ \(1\).webp);
+}
+
+.produto5:hover {
+    background-image: url(../img/5\ \(2\).webp);
+}
+
+.produto6 {
+    background-image: url(../img/6\ \(1\).jpg);
+}
+
+.produto6:hover {
+    background-image: url(../img/6\ \(2\).jpg);
+}
+
+.produto7 {
+    background-image: url(../img/7\ \(1\).jpg);
+}
+
+.produto7:hover {
+    background-image: url(../img/7\ \(2\).jpg);
+}
+
+.produto8 {
+    background-image: url(../img/8\ \(1\).webp);
+}
+
+.produto8:hover {
+    background-image: url(../img/8\ \(2\).webp);
+}
+
+.produto9 {
+    background-image: url(../img/9\ \(1\).webp);
+}
+
+.produto9:hover {
+    background-image: url(../img/9\ \(2\).webp);
+}
+
+.produto10 {
+    background-image: url(../img/10\ \(1\).jpg);
+}
+
+.produto10:hover {
+    background-image: url(../img/10\ \(2\).webp);
+}
+
+.p-frete {
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: green;
+    border-radius: 8px;
+    text-align: center;
+    width: 40%;
+}
+
+.p-unidades {
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 8px;
+    text-align: center;
+    width: 40%;
+}
+
+
+.descricao {
+    background-color: darkslategray;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.preco {
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.comprar {
+    border-radius: 4px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    background-color: rgb(1, 110, 1);
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+}
